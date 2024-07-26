@@ -1,0 +1,1 @@
+INSERT INTO {{cookiecutter.table_name}}s VALUES (1, "anonymous user");

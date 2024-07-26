@@ -1,0 +1,8 @@
+{
+    "project_name": "fast-api",
+    "api_description": "CRUD Mysql Template",
+    "version": "0.1.0",
+    "database_name": "main",
+    "table_name": "user",
+    "authors": "Sakshi Vij <sakshivij12@gmail.com>"
+}
