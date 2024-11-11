@@ -1,0 +1,8 @@
+{
+    "project_name": "fast-api",
+    "api_description": "CRUD Mongo Template",
+    "version": "0.1.0",
+    "connection_type": ["local", "server"],
+    "entity_name": "user",
+    "authors": "Sakshi Vij <sakshivij12@gmail.com>"
+}
