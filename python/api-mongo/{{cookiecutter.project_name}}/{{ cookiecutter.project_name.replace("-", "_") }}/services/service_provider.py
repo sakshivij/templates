@@ -1,9 +1,7 @@
 from fastapi import Depends
-from sqlalchemy.orm import Session
-
-from ..db.sql import get_db
-from .{{cookiecutter.table_name}} import {{ cookiecutter.table_name|capitalize }}Service
+from ..db.mongo import get_db
+from .{{cookiecutter.entity_name}} import {{ cookiecutter.entity_name|capitalize }}Service
 
 
-def get_{{cookiecutter.table_name}}_service(db: Session = Depends(get_db)) -> {{ cookiecutter.table_name|capitalize }}Service:
-    return {{ cookiecutter.table_name|capitalize }}Service(db)
+def get_{{cookiecutter.entity_name}}_service(db: Session = Depends(get_db)) -> {{ cookiecutter.entity_name|capitalize }}Service:
+    return {{ cookiecutter.entity_name|capitalize }}Service(db)
